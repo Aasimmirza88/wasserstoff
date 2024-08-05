@@ -12,9 +12,9 @@ def map_data_to_objects(object_paths, descriptions, texts, summaries):
         }
     return data
 
-# Example usage
+
 data = map_data_to_objects(object_paths, descriptions, texts, summaries)
 
-# Save data to JSON file
+# JSON file
 with open('object_data.json', 'w') as f:
     json.dump(data, f, indent=4)
