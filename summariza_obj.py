@@ -1,6 +1,6 @@
 from transformers import pipeline
 
-# Load a pre-trained summarization pipeline
+# pre-trained summarization pipeline
 summarizer = pipeline("summarization")
 
 # Function to summarize object attributes
@@ -12,5 +12,5 @@ def summarize_attributes(texts):
     
     return summaries
 
-# Example usage
+
 summaries = summarize_attributes(texts)
