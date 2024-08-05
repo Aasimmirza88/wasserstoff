@@ -10,5 +10,5 @@ def extract_text_from_objects(object_paths):
     
     return texts
 
-# Example usage
+
 texts = extract_text_from_objects(object_paths)
